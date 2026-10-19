@@ -14,9 +14,9 @@ public class TaskManager
     }
 
     public TaskItem? GetById(Guid id)
-    {
-        return _tasks.FirstOrDefault(t => t.Id == id);
-    }
+{
+    return _tasks.FirstOrDefault(t => t.Id == id);
+}
 
     public bool CompleteTask(Guid id)
     {
